@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Mauricio MF - Links</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+        VANTA.BIRDS({
+        el: "#vanta",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        wingSpan: 18.00,
+        separation: 91.00,
+        alignment: 60.00,
+        cohesion: 8.00,
+        quantity: 4.00,
+        backgroundAlpha: 0.0,
+        })
+
+        setTimeout(() => {
+            const main = document.querySelector('main')
+            main.style.opacity = 1
+            main.style.filter = 'blur(0px)'
+        },1000)
+        })
+    </script>
+
+</head>
+<body>
+    <div id="vanta">
+
+    </div>
+    <main>
+        <header>
+            <img src="images/eu.jpg" alt="">
+            <h1>@DevMauricioMF</h1>
+        </header>
+    
+        <ul>
+            <li>
+                <a href="youtube.com">
+                    <img src="images/homepage.svg" alt="Homepage" width="20">
+                Official Website
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/DevMauricioMgf">
+                    <img src="images/youtube.svg" alt="Youtube" width="20">
+                    Youtube
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/DevMauricioMgf">
+                    <img src="images/twitter.svg" alt="Twitter" width="20">
+                    Twitter
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/DevMauricioMgf">
+                    <img src="images/github.svg" alt="GitHub" width="20">
+                    Github
+                </a>
+            </li>
+        </ul>
+
+    </main>
+
+    
+    
+</body>
+</html>
